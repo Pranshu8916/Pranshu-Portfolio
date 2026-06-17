@@ -7,7 +7,7 @@ const achievements = [
     icon: <FaTrophy className="text-yellow-400 text-3xl" />,
     title: 'HACKOUT\'25',
     description: 'Participated in the prestigious Hackathon organized by DA-IICT.',
-    link: '/hackout-certificate.pdf'
+    link: '/hackout-certificate.jpg'
   },
   {
     icon: <FaStar className="text-blue-400 text-3xl" />,

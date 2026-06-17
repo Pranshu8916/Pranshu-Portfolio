@@ -14,7 +14,7 @@ const projectsData = [
     title: 'Personal Portfolio Website',
     description: 'A modern, responsive portfolio website featuring advanced animations, glassmorphism UI, and dark theme to showcase skills and projects.',
     tags: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-    github: '#',
+    github: 'https://github.com/Pranshu8916/Pranshu-Portfolio',
     live: '#'
   },
   {

@@ -30,10 +30,13 @@ const About = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative glass p-8 rounded-xl">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  I am a Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CPI of 9.19/10. I am passionate about Data Structures & Algorithms, Competitive Programming, Web Development, and building impactful software solutions.
+                  I am a 3rd-year Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CPI of 9.19/10. I am passionate about Data Structures & Algorithms, Competitive Programming, Web Development, and building impactful software solutions.
+                </p>
+                <p className="text-gray-300 text-lg leading-relaxed mb-6">
+                  My core strength lies in problem-solving and algorithmic thinking. Having solved over 300+ data structure and algorithm problems across platforms like LeetCode and Codeforces, I've developed a strong intuition for writing highly optimized and efficient code.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I continuously strive to learn new technologies and apply my problem-solving skills to real-world challenges. Whether it's tackling algorithmic problems on LeetCode or developing full-stack web applications, I bring dedication and a keen eye for detail to everything I do.
+                  Beyond simply solving problems, I actively contribute to the competitive programming community as a doubt solver on Codeforces, helping peers break down complex logic. Whether it's dissecting intricate algorithms or architecting full-stack web applications, I bring logical precision, dedication, and a keen eye for detail to every project I take on.
                 </p>
               </div>
             </div>
