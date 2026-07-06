@@ -27,7 +27,7 @@ const SkillBar = ({ name, level }) => {
     <div className="mb-6">
       <div className="flex justify-between items-center mb-2">
         <span className="text-gray-300 font-medium">{name}</span>
-        <span className="text-emerald-400 text-sm">{level}%</span>
+        <span className="text-blue-400 text-sm">{level}%</span>
       </div>
       <div className="w-full bg-gray-800 rounded-full h-2.5 overflow-hidden border border-gray-700">
         <motion.div
@@ -35,7 +35,7 @@ const SkillBar = ({ name, level }) => {
           whileInView={{ width: `${level}%` }}
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-          className="h-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500"
+          className="h-2.5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500"
         ></motion.div>
       </div>
     </div>
@@ -54,9 +54,9 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-500">My Skills</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">My Skills</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

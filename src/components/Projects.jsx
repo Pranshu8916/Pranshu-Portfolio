@@ -38,9 +38,9 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-500">My Projects</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">My Projects</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -53,10 +53,10 @@ const Projects = () => {
               transition={{ duration: 0.6, delay: idx * 0.2 }}
               className="group relative"
             >
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-70 transition duration-500"></div>
               <div className="relative glass h-full p-8 rounded-2xl flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors duration-300">{project.title}</h3>
+                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">{project.title}</h3>
                   <p className="text-gray-300 mb-6 line-clamp-3">{project.description}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-8">
@@ -72,7 +72,7 @@ const Projects = () => {
                   <a href={project.github} className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
                     <FaGithub className="mr-2" /> Code
                   </a>
-                  <a href={project.live} className="flex items-center text-gray-400 hover:text-emerald-400 transition-colors duration-300">
+                  <a href={project.live} className="flex items-center text-gray-400 hover:text-blue-400 transition-colors duration-300">
                     <FaExternalLinkAlt className="mr-2" /> Live Demo
                   </a>
                 </div>

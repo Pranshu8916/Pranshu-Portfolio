@@ -10,13 +10,13 @@ const Footer = () => {
           <a href="https://github.com/Pranshu8916" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white hover:scale-110 transition-all duration-300">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com/in/pranshu-bodara" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-emerald-500 hover:scale-110 transition-all duration-300">
+          <a href="https://linkedin.com/in/pranshu-bodara" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-blue-500 hover:scale-110 transition-all duration-300">
             <FaLinkedin size={24} />
           </a>
           <a href="https://leetcode.com/u/Pranshu_2007/" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-yellow-500 hover:scale-110 transition-all duration-300">
             <SiLeetcode size={24} />
           </a>
-          <a href="https://codeforces.com/profile/_Pranshu5811" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-emerald-500 hover:scale-110 transition-all duration-300">
+          <a href="https://codeforces.com/profile/_Pranshu5811" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-blue-500 hover:scale-110 transition-all duration-300">
             <SiCodeforces size={24} />
           </a>
         </div>

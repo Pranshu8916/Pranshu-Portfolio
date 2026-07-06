@@ -13,9 +13,9 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-500">About Me</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">About Me</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
         </motion.div>
 
         <div className="flex flex-col md:flex-row items-center gap-12">
@@ -27,7 +27,7 @@ const About = () => {
             className="w-full md:w-1/2"
           >
             <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative glass p-8 rounded-xl">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   I am a 3rd-year Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CPI of 9.19/10. I am passionate about Data Structures & Algorithms, Competitive Programming, Web Development, and building impactful software solutions.
@@ -58,7 +58,7 @@ const About = () => {
                 { label: 'CPI (PDEU)', value: '9.19/10' },
               ].map((stat, idx) => (
                 <div key={idx} className={`glass p-6 rounded-xl flex flex-col items-center justify-center text-center hover:scale-105 transition-transform duration-300 ${idx === 4 ? 'col-span-2 sm:col-span-1' : ''}`}>
-                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
                     {stat.value}
                   </h3>
                   <p className="text-gray-400 text-xs md:text-sm">{stat.label}</p>
