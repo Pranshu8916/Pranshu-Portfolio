@@ -10,12 +10,12 @@ const achievements = [
     link: '/hackout-certificate.jpg'
   },
   {
-    icon: <FaStar className="text-blue-400 text-3xl" />,
+    icon: <FaStar className="text-emerald-400 text-3xl" />,
     title: 'Codeforces Community',
     description: 'Active Doubt Solver helping peers understand complex algorithmic problems.'
   },
   {
-    icon: <FaMedal className="text-purple-400 text-3xl" />,
+    icon: <FaMedal className="text-teal-400 text-3xl" />,
     title: 'Extracurriculars',
     description: 'Civic Internship at Atmiya Trust, Gandhinagar. Regular Coding Contest Participant.',
     link: '/atmiya-certificate.pdf'
@@ -40,9 +40,9 @@ const Achievements = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Achievements</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-500">Achievements</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto rounded-full"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -65,7 +65,7 @@ const Achievements = () => {
                   href={item.link} 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="mt-auto text-sm font-semibold text-blue-400 hover:text-blue-300 flex items-center transition-colors"
+                  className="mt-auto text-sm font-semibold text-emerald-400 hover:text-blue-300 flex items-center transition-colors"
                 >
                   View Certificate <span className="ml-1">&rarr;</span>
                 </a>
