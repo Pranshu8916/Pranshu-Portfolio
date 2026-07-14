@@ -33,7 +33,7 @@ const About = () => {
                   I am a 3rd-year Computer Engineering student at Pandit Deendayal Energy University (PDEU) with a CPI of 9.19/10. I am passionate about Data Structures & Algorithms, Competitive Programming, Web Development, and building impactful software solutions.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  My core strength lies in problem-solving and algorithmic thinking. Having solved over 300+ data structure and algorithm problems across platforms like LeetCode and Codeforces, I've developed a strong intuition for writing highly optimized and efficient code.
+                  My core strength lies in problem-solving and algorithmic thinking. Having solved over 300+ data structure and algorithm problems across platforms like LeetCode, Codeforces, and Codechef, I have achieved a DSA Rating of 1701 (Global Rank: 598, Country Rank: 577) and developed a strong intuition for writing highly optimized and efficient code.
                 </p>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Beyond simply solving problems, I actively contribute to the competitive programming community as a doubt solver on Codeforces, helping peers break down complex logic. Whether it's dissecting intricate algorithms or architecting full-stack web applications, I bring logical precision, dedication, and a keen eye for detail to every project I take on.
@@ -53,11 +53,12 @@ const About = () => {
               {[
                 { label: 'DSA Problems Solved', value: '300+' },
                 { label: 'LeetCode Rating', value: '1680' },
-                { label: 'Codeforces Rating', value: '909' },
-                { label: 'Codechef Rating', value: '1195' },
+                { label: 'Codeforces Rating', value: '960' },
+                { label: 'Codechef Rating', value: '1275' },
+                { label: 'DSA Rating (Highest)', value: '1701' },
                 { label: 'CPI (PDEU)', value: '9.19/10' },
               ].map((stat, idx) => (
-                <div key={idx} className={`glass p-6 rounded-xl flex flex-col items-center justify-center text-center hover:scale-105 transition-transform duration-300 ${idx === 4 ? 'col-span-2 sm:col-span-1' : ''}`}>
+                <div key={idx} className="glass p-6 rounded-xl flex flex-col items-center justify-center text-center hover:scale-105 transition-transform duration-300">
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
                     {stat.value}
                   </h3>
