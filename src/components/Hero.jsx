@@ -95,6 +95,12 @@ const Hero = () => {
                 />
               </div>
             </div>
+
+            {/* Name below photo */}
+            <div className="mt-6 text-center">
+              <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">Pranshu Bodara</h3>
+              <p className="text-gray-400 text-sm mt-1 tracking-widest uppercase">Computer Engineering Student</p>
+            </div>
           </motion.div>
 
         </div>
